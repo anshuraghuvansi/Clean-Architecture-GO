@@ -14,7 +14,7 @@ func main() {
 	os.Setenv("environment", "development")
 	env.Configure()
 
-	db, err := database.Configure()
+	db, err := database.CreateAndConnect()
 	if err != nil {
 		panic("failed to connect database")
 	}
