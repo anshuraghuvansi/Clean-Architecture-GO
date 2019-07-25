@@ -17,3 +17,10 @@ In this project i have implemented 4 API's:
 2. Run MYSQL db on your local machine or change the database details in `development.env` file.
 3. Then run project in the VSCode
 
+# Docker
+
+1. Run docker on your machine 
+2. Download the project and cd into it.
+3. Run `docker-compose up`
+
+Now you can access app on url `localhost:8080`
